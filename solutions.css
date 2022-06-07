@@ -56,3 +56,12 @@
     filter: grayscale(1);
 }
 
+/* Exercise 7 */
+.ex-7-img {
+    transition: all 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.5);
+    filter: sepia(0.5);
+}
