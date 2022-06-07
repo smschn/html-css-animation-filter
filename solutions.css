@@ -153,7 +153,7 @@
 
 /* Exercise 13 */
 .ex-13-button:hover .ex-13-top-white {
-    animation: animation-13a 3s linear;
+    animation: animation-13a 4s linear;
 }
 
 @keyframes animation-13a {
@@ -181,7 +181,7 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: animation-13b 3s linear;
+    animation: animation-13b 4s linear;
 }
 
 @keyframes animation-13b {
