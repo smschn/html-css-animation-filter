@@ -104,7 +104,7 @@
 
 /* Exercise 11 */
 .ex-11-icon:hover {
-    animation: animation-11 5s infinite;
+    animation: animation-11 4s infinite;
 }
 
 @keyframes animation-11 {
