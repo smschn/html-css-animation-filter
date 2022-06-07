@@ -46,3 +46,12 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+
+/* Exercise 6 */
+.ex-6-img {
+    transition: all 3s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
