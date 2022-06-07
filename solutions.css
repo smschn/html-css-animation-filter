@@ -6,3 +6,13 @@
 .ex-1-square:hover {
     background-color: red;
 }
+
+/* Exercise 2 */
+.ex-2-square {
+    transition: all 3s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
