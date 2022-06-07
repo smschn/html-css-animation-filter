@@ -88,3 +88,17 @@
     border-radius: 25px;
     transform: scale(1.5);
 }
+
+/* Exercise 10 */
+.ex-10-icon {
+    animation: animation-10 1s linear infinite;
+}
+
+@keyframes animation-10 {
+
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
