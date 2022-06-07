@@ -76,3 +76,15 @@
     filter: sepia(0.7);
     border-radius: 25px;
 }
+
+/* Exercise 9 */
+.ex-9-img {
+    transition: all 3s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(0.8);
+    filter: sepia(0.8);
+    border-radius: 25px;
+    transform: scale(1.5);
+}
