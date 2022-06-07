@@ -16,3 +16,11 @@
     width: 100%;
 }
 
+/* Exercise 3 */
+.ex-3-square {
+    transition: all 3s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
