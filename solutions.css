@@ -118,3 +118,35 @@
     }
 }
 
+/* Exercise 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: animation-12a 3s linear;
+}
+
+@keyframes animation-12a {
+
+    50% {
+        transform: translate(90px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: animation-12b 3s linear;
+}
+
+@keyframes animation-12b {
+
+    50% {
+        transform: translate(-90px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+
+}
