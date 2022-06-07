@@ -65,3 +65,14 @@
     filter: grayscale(0.5);
     filter: sepia(0.5);
 }
+
+/* Exercise 8 */
+.ex-8-img {
+    transition: all 3s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.7);
+    filter: sepia(0.7);
+    border-radius: 25px;
+}
